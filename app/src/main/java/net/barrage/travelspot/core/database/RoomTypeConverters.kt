@@ -16,7 +16,6 @@ class RoomTypeConverters {
     @TypeConverter
     fun fromListOfStrings(list: List<String>?) = list?.joinToString { "," }
 
-
     @TypeConverter
     fun toListOfStrings(string: String?) = string?.split(",")
 

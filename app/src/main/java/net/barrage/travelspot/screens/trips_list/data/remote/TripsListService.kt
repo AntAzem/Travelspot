@@ -16,6 +16,4 @@ interface TripsListService {
         @Body
         body: TripsListRequest
     ): Single<TripsListResponse?>
-    //): Single<List<TripsListResponse?>?>
-
 }
